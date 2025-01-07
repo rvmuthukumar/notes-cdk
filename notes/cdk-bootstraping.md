@@ -54,16 +54,16 @@
 |Object Logical ID	| AWS Resource|	Default Values used during deploy	|
 |--------------------|-----------|-------------------------------------|
 CdkBootstrapVersion	|AWS::SSM::Parameter	|/cdk-bootstrap/hnb659fds/version 	|
-CloudFormationExecutionRole	|AWS::IAM::Role	|cdk-hnb659fds-cfn-exec-role-341224537620-us-east-2 	|
-DeploymentActionRole|	AWS::IAM::Role|	cdk-hnb659fds-deploy-role-341224537620-us-east-2 	|
-FilePublishingRole|	AWS::IAM::Role	|cdk-hnb659fds-file-publishing-role-341224537620-us-east-2 	|
+CloudFormationExecutionRole	|AWS::IAM::Role	|cdk-hnb659fds-cfn-exec-role-***AWS-Account-No-us-east-2 	|
+DeploymentActionRole|	AWS::IAM::Role|	cdk-hnb659fds-deploy-role-***AWS-Account-No-us-east-2 	|
+FilePublishingRole|	AWS::IAM::Role	|cdk-hnb659fds-file-publishing-role-***AWS-Account-No-us-east-2 	|
 FilePublishingRoleDefaultPolicy|	AWS::IAM::Policy|	CDKTo-FileP-kRppuGoOa6x2	|
-ImagePublishingRole|	AWS::IAM::Role|	cdk-hnb659fds-image-publishing-role-341224537620-us-east-2 	|
+ImagePublishingRole|	AWS::IAM::Role|	cdk-hnb659fds-image-publishing-role-***AWS-Account-No-us-east-2 	|
 ImagePublishingRoleDefaultPolicy|	AWS::IAM::Policy|	CDKTo-Image-jJeA0ejiOO60	|
-LookupRole	|AWS::IAM::Role	|cdk-hnb659fds-lookup-role-341224537620-us-east-2 	|
-StagingBucket	|AWS::S3::Bucket|	cdk-hnb659fds-assets-341224537620-us-east-2 	|
-StagingBucketPolicy	|AWS::S3::BucketPolicy|	cdk-hnb659fds-assets-341224537620-us-east-2	|
-ContainerAssetsRepository	|AWS::ECR::Repository|	cdk-hnb659fds-container-assets-341224537620-us-east-2 	|
+LookupRole	|AWS::IAM::Role	|cdk-hnb659fds-lookup-role-***AWS-Account-No-us-east-2 	|
+StagingBucket	|AWS::S3::Bucket|	cdk-hnb659fds-assets-***AWS-Account-No-us-east-2 	|
+StagingBucketPolicy	|AWS::S3::BucketPolicy|	cdk-hnb659fds-assets-***AWS-Account-No-us-east-2	|
+ContainerAssetsRepository	|AWS::ECR::Repository|	cdk-hnb659fds-container-assets-***AWS-Account-No-us-east-2 	|
 
 
 *  when you run cdk bootstrap the CDK CLI synthesizes the CDK app in the current director
